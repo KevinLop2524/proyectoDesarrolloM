@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">MiRutinaFit</string>
+    <string name="hint_tipo">Tipo de ejercicio</string>
+    <string name="hint_duracion">Duración (min)</string>
+    <string name="hint_intensidad">Intensidad (baja/media/alta)</string>
+    <string name="hint_fecha">Fecha (dia/mes/hora)</string>
+
+
+</resources>

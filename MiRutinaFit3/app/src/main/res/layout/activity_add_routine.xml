@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/editTipo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hint_tipo"
+        android:inputType="text"
+        android:autofillHints="text" />
+
+    <EditText
+        android:id="@+id/editDuracion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hint_duracion"
+        android:inputType="number"
+        android:autofillHints="number" />
+
+    <EditText
+        android:id="@+id/editIntensidad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hint_intensidad"
+        android:inputType="text"
+        android:autofillHints="text" />
+
+    <EditText
+        android:id="@+id/editFecha"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hint_fecha"
+        android:inputType="date"
+        android:autofillHints="date" />
+
+    <Button
+        android:id="@+id/btnGuardar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Guardar Rutina"
+        android:layout_marginTop="16dp"
+        />
+
+</LinearLayout>
+
